@@ -1,8 +1,9 @@
 import pandas as pd
-# load a dataset from a csv file and store it in a variable,from 
+# load a dataset with a missing value and its get 
+# from"https://www.kaggle.com/datasets/himelsarder/retail-product-dataset-with-missing-values" 
 data=pd.read_csv("synthetic_dataset.csv")
 print(data)
-### drop the missing values without handling missing values,
+# drop the missing values without handling missing values,
 # get a clear concept of the missing values and get a clear 
 #  knowelege about the missing values and save with sample variable
 f_data=data.dropna(inplace=False)
